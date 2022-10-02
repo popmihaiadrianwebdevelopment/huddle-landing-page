@@ -8,42 +8,41 @@
   <script src="https://kit.fontawesome.com/a834185d25.js" crossorigin="anonymous"></script>
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  <main>
     <div class="container">
-      <div class="right">
-        <div>
-          <img src="./images/logo.svg" alt="logo" class="logo">
-        </div>
-        <div>
-        <img src="./images/illustration-mockups.svg" alt="illustartion" class="right-img">
-      </div>
-      </div>
+      <img src="/images/logo.svg" alt="logo">
       <div class="content-wrapper">
-        <div class="title">
-          Build The Community Your Fans Will Love
-        </div>
-        <div class="content-description">
-          Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-          Create connections with your users as you engage in genuine discussion. 
-        </div>
-        <button class="btn">Register</button>
+        <div class="flex">
+          <div>
+            <img src="./images/illustration-mockups.svg" alt="">
+          </div>
+          <div>
+            <h1>Build The Community Your Fans Will Love</h1>
+            <p>
+              Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+              Create connections with your users as you engage in genuine discussion. 
+            </p>
+            <button class="btn">Register</button>
+          </div>
       </div>
-      <footer>
-        <div class="socials">
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-twitter"></i>
-        </div>
-      </footer>
+      <ul class="socials">
+        <li>
+          <a href="#">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+      </ul>
     </div>
-    
-  </main>
 </body>
 </html>
